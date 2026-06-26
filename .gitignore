@@ -1,0 +1,9 @@
+# Public site files only. Keep application docs private.
+*.docx
+*.pdf
+.DS_Store
+qa-*.jpg
+qa-*.png
+
+# ...but DO publish the linked sample:
+!account-success-plan.pdf
