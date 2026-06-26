@@ -61,7 +61,10 @@
   h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.55rem,3.2vw,2.3rem);letter-spacing:-.015em;margin:0 0 16px;max-width:22ch}
   .sec-lede{font-size:1.05rem;color:var(--muted);max-width:60ch;margin:0 0 30px}
   /* about */
+  .about-layout{display:grid;grid-template-columns:200px 1fr;gap:clamp(22px,4vw,42px);align-items:start}
+  .about-photo{width:100%;height:auto;border-radius:14px;border:1px solid var(--line);box-shadow:0 14px 34px rgba(25,23,18,.08)}
   .about p{font-size:1.05rem;color:#2a2620;max-width:64ch;margin:0 0 14px}
+  @media(max-width:680px){.about-layout{grid-template-columns:1fr}.about-photo{max-width:190px}}
   /* numbered principle cards */
   .principles{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
   .principle{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px}
