@@ -8,3 +8,5 @@ qa-*.png
 # ...but DO publish the linked samples:
 !account-success-plan.pdf
 !first-90-days.pdf
+!Harvey_Implementation_Playbook.pdf
+*.pptx
