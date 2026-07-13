@@ -1,13 +1,19 @@
-# Public site files only. Keep application docs private.
-*.docx
-*.pdf
+# ─── Private application documents (never publish) ───
+# Name-based, NOT type-based: a blanket *.docx rule silently drops
+# deliverables the site links to. Keep the rule narrow and explicit.
+Donnelly_Alex_*
+*CoverLetter*
+*_Resume_*
+*Resume*.pdf
+*Resume*.docx
+
+# ─── Private working artifacts ───
+/Harvey_FirstWin_Articulate_Script.pdf
+/Harvey_Implementation_Playbook.pptx
+
+# ─── Junk ───
 .DS_Store
+*.tmp
 qa-*.jpg
 qa-*.png
-
-# ...but DO publish the linked samples:
-!account-success-plan.pdf
-!first-90-days.pdf
-!Harvey_Implementation_Playbook.pdf
-*.pptx
-Harvey_FirstWin_Articulate_Script.md
+_orig_*
