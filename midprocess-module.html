@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interactive Module: AI Beyond Prompting | Alex Donnelly</title>
+    <meta
+      name="description"
+      content="An interactive training module (Articulate Rise) on turning AI experiments into everyday practice: find the friction, design a repeatable workflow, prove it, and scale. Sample built for the Harvey Mid-Market CSM application."
+    >
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.png" sizes="48x48">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=1">
+    <style>
+      .course-intro { padding: clamp(32px, 5vw, 56px) clamp(18px, 6vw, 80px) 8px; }
+      .course-frame-wrap { padding: 16px clamp(18px, 6vw, 80px) clamp(40px, 6vw, 80px); }
+      .course-frame {
+        width: 100%;
+        height: calc(100svh - 120px);
+        min-height: 560px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        box-shadow: var(--shadow);
+        background: var(--white);
+      }
+      .course-fallback {
+        display: grid; gap: 8px; padding: 28px;
+        border: 1px dashed var(--line); border-radius: 12px;
+        background: var(--soft); color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="The Human Layer home">
+        <span class="brand-mark" aria-hidden="true">HL</span>
+        <span>
+          <strong>The Human Layer</strong>
+          <small>Alex Donnelly</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="index.html#approach">Approach</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#work">Selected work</a>
+        <a href="index.html#why">Why Harvey</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="course-intro">
+        <div class="section-heading">
+          <p class="eyebrow">Sample deliverable &middot; Interactive training (Articulate Rise) &middot; Mid-process</p>
+          <h2>AI beyond prompting: turning experiments into everyday practice</h2>
+          <p>
+            A self-paced module for teams already past the basics: find the friction, design a repeatable
+            AI-enhanced workflow, prove it with a baseline, and scale what works. The expansion half of the
+            job &mdash; taking a customer from first wins to durable, everyday value. Independent sample created
+            for this application; not affiliated with or endorsed by Harvey.
+          </p>
+        </div>
+      </section>
+
+      <section class="course-frame-wrap">
+        <iframe
+          class="course-frame"
+          src="midprocess-module/index.html"
+          title="Interactive module: AI beyond prompting"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+        <noscript>
+          <div class="course-fallback">
+            <strong>This module needs JavaScript.</strong>
+            <span>Enable JavaScript, or <a href="midprocess-module/index.html">open the module in a new tab</a>.</span>
+          </div>
+        </noscript>
+        <p style="margin-top:14px">
+          <a class="button secondary" href="midprocess-module/index.html">Open the module full-screen &rarr;</a>
+        </p>
+      </section>
+
+      <section class="contact-section">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>From first win to everyday value</h2>
+          <p>
+            Adoption is won in stages. This is the module I&rsquo;d reach for once a customer is past onboarding
+            and ready to build durable, repeatable AI workflows. Happy to walk through the full program.
+          </p>
+        </div>
+        <a class="button primary" href="mailto:a.james.donnelly@gmail.com">Start a conversation</a>
+      </section>
+    </main>
+  </body>
+</html>
